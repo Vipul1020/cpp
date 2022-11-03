@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+
+{  int unitconsumed , costperunit ; 
+   cout<< "Enter the amount of unit consumed : ";
+   cin >>  unitconsumed ;
+   cout<< "Enter the cost per unit : ";
+   cin >> costperunit;
+   cout<< "The total consumer cost will be : " << pow(unitconsumed,costperunit) ;
+
+   return 0 ;
+
+}

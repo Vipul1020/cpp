@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std ;
+int main ()
+{ 
+    int a , b , tempc ;
+    cout<<"enter two numbers " ;
+    cin>> a , b ;
+    tempc = a ;
+    a = b;
+    b = tempc;
+    cout<< "after swapping a = b ";
+
+
+    return 0 ;  

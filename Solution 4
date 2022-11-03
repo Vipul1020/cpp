@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std ; 
+int main()
+{
+int minutes;
+cout<< "enter the minutes : ";
+cin>> minutes ; 
+cout<< minutes / 60 <<" Hours";
+
+return 0 ;
+}

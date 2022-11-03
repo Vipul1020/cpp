@@ -1,0 +1,14 @@
+# include <iostream>
+using namespace std ;
+int main ()
+{
+     int a ;
+     int b ;
+     cout<< " give the first number ";
+     cin>> a ;
+     cout<< "the second number boy ";
+     cin>> b ;
+     cout<< a + b ;
+
+    return 0;
+}

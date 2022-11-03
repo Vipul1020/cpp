@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std ; 
+int main()
+{
+ int amtgiven , billamt ; 
+ cout<< "Amount given by nancy";
+ cin>> amtgiven ;
+ cout<< "Amount specified by shopkeeper";
+ cin>> billamt;
+ cout<< amtgiven/billamt << endl;
+ cout<< fmod(amtgiven,billamt);
+
+ return 0 ;
+}

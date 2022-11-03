@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+
+{  int alvquntoffood,messcnt,eqshared,remainfood ;
+   cout<< "Available quantity of food packets :";
+   cin>> alvquntoffood ;
+   cout<< "Available number of messes : ";
+   cin>> messcnt ;
+   eqshared = alvquntoffood / messcnt ;
+   remainfood = alvquntoffood % messcnt;
+   cout<< "Food packets equally shared by messes : " << eqshared ;
+   cout<< "      Remaining Number of food packets available : "<< remainfood ;
+
+   return 0 ;
+
+}

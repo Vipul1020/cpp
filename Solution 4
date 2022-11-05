@@ -2,10 +2,12 @@
 using namespace std ; 
 int main()
 {
-int minutes;
-cout<< "enter the minutes : ";
-cin>> minutes ; 
-cout<< minutes / 60 <<" Hours";
-
-return 0 ;
+    int TotMin, hrs, min;
+    cout<< "enter total minutes : ";
+    cin>> TotMin;
+    hrs = TotMin/60;
+    min = TotMin%60;
+    cout<<hrs<<" Hours and "<<min<<" Minutes";
+    
+    return 0 ;
 }

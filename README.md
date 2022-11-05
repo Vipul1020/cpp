@@ -57,5 +57,5 @@ HINT : ```store one number is a temporary variable```
   ![image](https://user-images.githubusercontent.com/66107299/199608080-6e6b8d48-6bae-4866-91f9-1d7d314004a9.png)
 
   
-  ### Question 10
+  ### Question 12
   ![image](https://user-images.githubusercontent.com/66107299/199608257-345fdca1-d37f-48b8-9532-d9a8d4a2b5b9.png)  

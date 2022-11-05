@@ -4,9 +4,9 @@ int main()
 {
  int n , m ; 
  int steps;
- steps =(n-1)*(m-1);
  cout << "Enter the integers " ;
- cin >> n , m ; 
+ cin >> n >> m ;
+ steps =(n-1)*(m-1);
  cout << "The max steps he can take are : " << steps ; 
 
 return 0 ;
